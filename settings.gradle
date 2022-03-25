@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ru.mirea.Gribkova.practice"
+include ':app'
+include ':share'
+include ':resultactivity'
+include ':intentapp'
+include ':systemintensapp'
+include ':simplefragmentapp'
